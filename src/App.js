@@ -12,23 +12,24 @@ function App() {
 
         <main className='container'>
 
-          {/* Home Route */}
+          {/* Routes */}
           <Routes>
+            {/* Home Route */}
             <Route path='/' element={<Home />} />
-          </Routes>
 
-          {/* About Route */}
-          <Routes>
+            {/* About Route */}
             <Route path='/about' element={<About />} />
+        
+            {/* Page NotFound Route */}
+            <Route path='/notfound' element={<NotFound />} />
+          
+            {/* Page Doesnt Exist */}
+            <Route path='/*' element={<NotFound />} />
           </Routes>
-
-          {/* Page NotFound Route */}
-          <Routes>
-            <Route path='/asd' element={<NotFound />} />
-          </Routes>
-
 
         </main>
+
+        
     </Router>
   );
 }
