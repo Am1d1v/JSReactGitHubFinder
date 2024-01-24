@@ -2,6 +2,42 @@
 
 .navbar {
     padding: 12px;
-    background-color: #3f4147;
+    background-color: #1d1d36;
     color: #fff;
+}
+
+.navbar .container {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container .github {
+    font-size: 30px;
+}
+
+.navbar .container .link {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.navbar .container .home {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    background-color: #1d1d36;
+    border-radius: 10px;
+}
+
+.navbar .container .home:hover {
+    background-color: #3b3b64;
+    border-radius: 10px;
+    cursor: pointer;
 }

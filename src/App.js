@@ -5,7 +5,7 @@ import NavBar from './components/layout/NavBar';
 function App() {
   return (
     <Router>
-        <NavBar />
+        <NavBar title="GitHub Finder"/>
     </Router>
   );
 }
