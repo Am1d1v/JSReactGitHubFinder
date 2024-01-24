@@ -1,11 +1,12 @@
 import './App.css';
+import { BrowserRouter as  Router, Route } from 'react-router-dom';
+import NavBar from './components/layout/NavBar';
 
 function App() {
   return (
-    <div className="bg-purple-500">
-      <h1 className='text-xl'>GitHub Finder</h1>
-      <button className='btn'>Click</button>
-    </div>
+    <Router>
+        <NavBar />
+    </Router>
   );
 }
 
